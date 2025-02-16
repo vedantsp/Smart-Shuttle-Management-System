@@ -24,6 +24,7 @@ Clone the Repository
 ```bash
 git clone https://github.com/vedantsp/Smart-Shuttle-Management-System.git
 cd Smart-Shuttle-Management-System
+
 ```
 
 ### Run the Backend (Spring Boot)
