@@ -1,5 +1,5 @@
 ```markdown
-# Smart Shuttle Management System
+#Smart Shuttle Management System
 
 A real-time campus shuttle management system built with Spring Boot, Angular, PostgreSQL, and AWS. It provides live tracking, seat reservations, and ETA calculations using the Haversine Algorithm, ensuring efficient transportation for students and staff.
 
