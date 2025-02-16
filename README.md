@@ -1,59 +1,45 @@
 ```markdown
-# 🚀 Smart Shuttle Management System
+# Smart Shuttle Management System
 
-A **real-time campus shuttle management system** built with **Spring Boot**, **Angular**, **PostgreSQL**, and **AWS**. It provides **live tracking, seat reservations, and ETA calculations** using the **Haversine Algorithm**, ensuring efficient transportation for students and staff.
+A real-time campus shuttle management system built with Spring Boot, Angular, PostgreSQL, and AWS. It provides live tracking, seat reservations, and ETA calculations using the Haversine Algorithm, ensuring efficient transportation for students and staff.
 
-## 🛠 Tech Stack
-- **Backend**: Java **Spring Boot**, **PostgreSQL**, **REST API**
-- **Frontend**: **Angular**, TypeScript
-- **Cloud Services**: **AWS (EC2, S3, RDS)**
-- **Authentication**: **JWT**
-- **Geospatial ETA Calculation**: **Haversine Algorithm**
-- **Real-Time Tracking**: **Google Maps API / AWS Location**
+## Motivation
+Managing campus shuttle services manually can lead to inefficiencies, delays, and miscommunication. This project aims to provide a seamless and automated solution for shuttle tracking, scheduling, and seat reservations. By integrating real-time GPS tracking and optimized route planning, the system enhances the user experience while improving shuttle utilization.
 
----
+## Why This Tech?
+- **Java Spring Boot**: Provides a scalable and efficient backend with built-in security and REST API support.
+- **Angular**: Enables a responsive and dynamic frontend for an intuitive user experience.
+- **PostgreSQL**: Ensures reliable and structured data storage for shuttle schedules, bookings, and user information.
+- **REST API**: Facilitates seamless communication between the frontend and backend, making the system highly modular and extensible.
+- **AWS (EC2, S3, RDS)**: Provides cloud scalability, reliability, and cost-effective hosting for deployment.
 
-## 🚀 How to Run (Spring Boot + Angular)
+## Tech Stack
+- Backend: Java Spring Boot, PostgreSQL, REST API
+- Authentication: JWT
+- Geospatial ETA Calculation: Haversine Algorithm
+- Real-Time Tracking: Google Maps API
 
-### 1️⃣ Clone the Repository
+## How to Run (Spring Boot + Angular)
+
+### Clone the Repository
 ```bash
 git clone https://github.com/vedantsp/Smart-Shuttle-Management-System.git
 cd Smart-Shuttle-Management-System
 ```
 
-### 2️⃣ Run the Backend (Spring Boot)
+### Run the Backend (Spring Boot)
 ```bash
 cd backend
 mvn clean install
 mvn spring-boot:run
 ```
-- **API will be available at**: `http://localhost:8080`
+API will be available at: `http://localhost:8080`
 
-### 3️⃣ Run the Frontend (Angular)
-```bash
-cd frontend
-npm install
-ng serve
-```
-- **App will be available at**: `http://localhost:4200`
 
----
+## Ready to Go
+Login, book a seat, and track shuttles live.  
+Drivers can update locations, and admins manage routes and schedules.  
+  
 
-## 📌 Configure PostgreSQL (`application.properties`)
-```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/shuttle_db
-spring.datasource.username=your_db_user
-spring.datasource.password=your_db_password
-spring.jpa.hibernate.ddl-auto=update
-```
-
----
-
-## ✅ Ready to Go!
-- Login, **book a seat**, and **track shuttles live** 🚍  
-- Drivers can **update locations**, and **admins** manage **routes & schedules**.  
-
-📌 **Check API Documentation:** `http://localhost:8080/swagger-ui.html`  
-
-🔗 **GitHub Repository:** [Smart Shuttle Management System](https://github.com/vedantsp/Smart-Shuttle-Management-System)
+GitHub Repository: [Smart Shuttle Management System](https://github.com/vedantsp/Smart-Shuttle-Management-System)
 ```
